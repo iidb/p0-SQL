@@ -1,5 +1,5 @@
-grade:
-	python3 grade.py
+test:
+	python3 test.py
 
 submit: ../submission.zip
 
@@ -12,4 +12,4 @@ clean:
 ../autograde.tar: Makefile data grade.py outputs schema.sql
 	tar cf $@ $^ 
 
-.PHONY: grade submit clean
+.PHONY: test submit clean

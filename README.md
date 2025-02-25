@@ -54,16 +54,16 @@ Please note the order of the queries. An earlier query may affect a later query.
 ## Local test
 
 ```shell
-make grade
+make test
 ```
 
 You may also test problems one by one:
 
 ```shell
-python3 grade.py load
-python3 grade.py 1
-python3 grade.py 2
-python3 grade.py 3
+python3 test.py load
+python3 test.py 1
+python3 test.py 2
+python3 test.py 3
 ...
 ```
 
