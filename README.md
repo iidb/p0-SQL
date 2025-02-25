@@ -73,7 +73,7 @@ python3 test.py 3
 make submit
 ```
 
-`submission.zip` will be created in the parent directory. Then `submission.zip` should be submitted to autolab.
+Then submit `submission.zip` to autolab.
 
 For Windows users:
 
